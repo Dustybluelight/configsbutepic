@@ -68,6 +68,8 @@ return packer.startup(function(use)
 
   use "justinmk/vim-sneak"
 
+  use "alx741/vim-hindent"
+
 
 
   -- Automatically set up your configuration after cloning packer.nvim
