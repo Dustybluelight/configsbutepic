@@ -74,6 +74,9 @@ return packer.startup(function(use)
   }
   use "p00f/nvim-ts-rainbow"
 
+  use "alx741/vim-hindent"
+
+
 
   -- Automatically set up your configuration after cloning packer.nvim
   -- Put this at the end after all plugins
