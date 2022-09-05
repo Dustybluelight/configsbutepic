@@ -1,4 +1,4 @@
-vim.cmd "colorscheme deus"
+vim.cmd "colorscheme ferrum"
 vim.cmd "set shell=fish"
 vim.cmd "set timeoutlen=1000"
 
