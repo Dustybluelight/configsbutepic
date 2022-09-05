@@ -114,6 +114,16 @@ _G.packer_plugins = {
     path = "/home/adam/.local/share/nvim/site/pack/packer/start/friendly-snippets",
     url = "https://github.com/rafamadriz/friendly-snippets"
   },
+  ["gitsigns.nvim"] = {
+    loaded = true,
+    path = "/home/adam/.local/share/nvim/site/pack/packer/start/gitsigns.nvim",
+    url = "https://github.com/lewis6991/gitsigns.nvim"
+  },
+  ["nvim-autopairs"] = {
+    loaded = true,
+    path = "/home/adam/.local/share/nvim/site/pack/packer/start/nvim-autopairs",
+    url = "https://github.com/windwp/nvim-autopairs"
+  },
   ["nvim-cmp"] = {
     loaded = true,
     path = "/home/adam/.local/share/nvim/site/pack/packer/start/nvim-cmp",
@@ -131,12 +141,12 @@ _G.packer_plugins = {
   },
   ["nvim-treesitter"] = {
     loaded = true,
-    path = "/Users/adamwilkinson/.local/share/nvim/site/pack/packer/start/nvim-treesitter",
+    path = "/home/adam/.local/share/nvim/site/pack/packer/start/nvim-treesitter",
     url = "https://github.com/nvim-treesitter/nvim-treesitter"
   },
   ["nvim-ts-rainbow"] = {
     loaded = true,
-    path = "/Users/adamwilkinson/.local/share/nvim/site/pack/packer/start/nvim-ts-rainbow",
+    path = "/home/adam/.local/share/nvim/site/pack/packer/start/nvim-ts-rainbow",
     url = "https://github.com/p00f/nvim-ts-rainbow"
   },
   ["packer.nvim"] = {

@@ -76,6 +76,10 @@ return packer.startup(function(use)
 
   use "alx741/vim-hindent"
 
+  use "windwp/nvim-autopairs"
+
+   use "lewis6991/gitsigns.nvim"
+
 
 
   -- Automatically set up your configuration after cloning packer.nvim

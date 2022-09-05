@@ -1,4 +1,4 @@
-vim.cmd "colorscheme dogrun"
+vim.cmd "colorscheme deus"
 vim.cmd "set shell=fish"
 vim.cmd "set timeoutlen=1000"
 
@@ -10,4 +10,5 @@ require "adam.cmp"
 require "adam.lsp"
 require "adam.telescope"
 require "adam.treesitter"
-
+require "adam.autopairs"
+require "adam.gitsigns"
