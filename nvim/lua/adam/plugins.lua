@@ -68,6 +68,11 @@ return packer.startup(function(use)
 
   use "justinmk/vim-sneak"
 
+  use {
+     "nvim-treesitter/nvim-treesitter",
+     run = ":TSUpdate",
+  }
+  use "p00f/nvim-ts-rainbow"
 
 
   -- Automatically set up your configuration after cloning packer.nvim
