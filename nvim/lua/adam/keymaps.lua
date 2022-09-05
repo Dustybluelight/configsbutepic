@@ -20,7 +20,7 @@ keymap("n", "<C-l>", "<C-w>l", opts)
 keymap("n", "<S-l>", ":bnext<CR>", opts)
 keymap("n", "<S-h>", ":bprevious<CR>", opts)
 
-keymap("n", "<leader>e", ":Lex 30<cr>", opts)
+keymap("n", "<leader>e", ":NvimTreeToggle<cr>", opts)
 
 keymap("n", "<leader>v", ":vsplit<cr>", opts)
 keymap("n", "<leader>h", ":split<cr>", opts)
