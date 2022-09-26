@@ -1,6 +1,6 @@
 vim.cmd("colorscheme ferrum")
 vim.cmd("set shell=fish")
-vim.cmd("set timeoutlen=1000")
+vim.cmd("set timeoutlen=100")
 
 require("adam.options")
 require("adam.keymaps")

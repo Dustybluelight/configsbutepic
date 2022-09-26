@@ -1,4 +1,4 @@
-local opts  = { noremap = true, silent = true }
+local opts = { noremap = true, silent = true }
 
 local term_opts = { silent = true }
 
@@ -22,6 +22,8 @@ keymap("n", "<S-h>", ":bprevious<CR>", opts)
 
 keymap("n", "<leader>e", ":NvimTreeToggle<cr>", opts)
 
+keymap("n", "<C-w>", ":bwipeout<CR>", opts)
+
 keymap("n", "<leader>v", ":vsplit<cr>", opts)
 keymap("n", "<leader>h", ":split<cr>", opts)
 
@@ -34,6 +36,7 @@ keymap("n", "<S-Right>", ":vertical resize +2<CR>", opts)
 -- Insert --
 -- Press jk to enter
 keymap("i", "jk", "<ESC>", opts)
+keymap("i", "jh", "<ESC>", opts)
 keymap("i", "kj", "<ESC>", opts)
 
 -- Visual --
